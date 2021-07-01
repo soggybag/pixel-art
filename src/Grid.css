@@ -1,0 +1,11 @@
+.Grid {
+	display: grid;
+	grid-template-columns: repeat(8, 10px);
+	grid-template-rows: repeat(8, 10px);
+	grid-gap: 1px;
+}
+
+.Grid > div {
+	width: 10px;
+	height: 10px;
+}
